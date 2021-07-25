@@ -14,6 +14,3 @@ def arg_handler(args):
 	print(args.date)
 	print_weather(weather, args.date)
 	return search_client
-
-def info():
-	print("Searching weather")
