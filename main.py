@@ -19,7 +19,7 @@ parser.add_argument("-lg",
 					type=float)
 
 parser.add_argument("-lt",
-					"--latititude",
+					"--latitude",
 					help="Get weather with latitude",
 					type=float)
 
@@ -32,7 +32,7 @@ parser.add_argument("-d",
 ARGS = parser.parse_args()
 
 # Check if user has provided at least some info about location
-if((ARGS.city==None and (ARGS.longitude == None or ARGS.latititude == None))
+if((ARGS.city==None and (ARGS.longitude == None or ARGS.latitude == None))
 	or (ARGS.longitude == None and ARGS.latititude == None) and ARGS.city==None):
 	print("You need to enter either City name of the coordinates of location")
 	sys.exit(1)
