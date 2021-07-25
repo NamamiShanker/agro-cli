@@ -24,3 +24,9 @@ agro -lt=26 -lg=82 --date=2021-07-29
 ```
 ![Agro CLI Search by coordinates](https://i.imgur.com/UF2HpRv.png)
 
+* `--help` parameter to get started with arguments.
+```
+agro --help
+```
+
+![Agro CLI Help](https://i.imgur.com/7MCvnGU.png)
