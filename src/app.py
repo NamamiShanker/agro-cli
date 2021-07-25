@@ -11,4 +11,5 @@ def arg_handler(args):
 		weather = search_client.get_weather_from_coordinates()
 	else:
 		weather = search_client.get_weather_from_city()
-	print_weather(weather, 'date')
+	print(args.date)
+	print_weather(weather, args.date)
