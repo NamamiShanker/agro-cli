@@ -15,4 +15,4 @@ Get weather forecast for a city for a specified date.
 ```
 agro --city=Lucknow --date=2021-07-29
 ```
-![Agro CLI Search by city](https://imgur.com/a/vegaZvl.png)
+![Agro CLI Search by city](https://i.imgur.com/z0nmZPW.png)
