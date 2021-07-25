@@ -1,0 +1,7 @@
+README.md
+setup.py
+agro_cli.egg-info/PKG-INFO
+agro_cli.egg-info/SOURCES.txt
+agro_cli.egg-info/dependency_links.txt
+agro_cli.egg-info/entry_points.txt
+agro_cli.egg-info/top_level.txt

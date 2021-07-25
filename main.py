@@ -4,6 +4,9 @@ import sys
 from src.utility import valid_date
 from src.app import arg_handler
 
+def info():
+	print("Weather CLI app for Agro")
+
 parser = argparse.ArgumentParser()
 
 parser.add_argument("-c",

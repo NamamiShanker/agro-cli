@@ -13,3 +13,7 @@ def arg_handler(args):
 		weather = search_client.get_weather_from_city()
 	print(args.date)
 	print_weather(weather, args.date)
+	return search_client
+
+def info():
+	print("Searching weather")
