@@ -24,7 +24,7 @@ class Search:
 			print("Encountered Connection Error, please check your internet connection")
 			raise SystemExit(e)
 		except requests.exceptions.HTTPError as e:
-			raise SystemExit(e)
+			raise SystemExit("Invalid location parameters")
 		return response.json()
 
 
@@ -40,7 +40,7 @@ class Search:
 			print("Encountered Connection Error, please check your internet connection")
 			raise SystemExit(e)
 		except requests.exceptions.HTTPError as e:
-			raise SystemExit(e)
+			raise SystemExit("Invalid location parameters")
 		res = response.json()
 		self.args.latitude = res['coord']['lat']
 		self.args.longitude = res['coord']['lon']
